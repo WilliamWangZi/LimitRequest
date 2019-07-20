@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 public class LimitTestController {
 
     @PostMapping(value = "/login")
+    @Limit
     public String login(
             HttpServletRequest request,
             @RequestParam(value="user")String user
