@@ -5,6 +5,9 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * 限流测试
+ */
 @RestController
 public class LimitTestController {
 
